@@ -1,0 +1,48 @@
+1- open session box(ctrl+z)
+2- autokeyboard- 2 windows
+3- login page mfacebook - (mfacebook cordinate and crt+tab) and delete first tab
+
+4- login - 
+cordinate->autofiller,
+login->cordinate(delay200)
+crtl+tab
+(changePassWord and ip change)
+(3times of tabs-100)
+
+5- save facebook Ids
+6- close everything
+shutdown down internet to reset ip address
+password change in autofiller only 2digits
+
+to check ids
+1 - open session box
+2 - paste link
+3 - get like cordinate
+
+
+57273200
+0825281xxxx
+0805231*/xxx
+0950135*/xxx
+
+
+delete first tab
+for login page
+click left button
+ctrl+Tab
+--------------
+for login
+click left button
+click left button
+ctrl+Tab
+--------------------
+to save file
+enter 
+left 
+down 
+in auto keyboard
+
+12345@Asdfg - admin
+Asdfg@12345 - guest
+10.62.33.115
+
