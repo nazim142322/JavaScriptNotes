@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome to Java script</title>
+
+    </head>
+    <body>
+        <ul>
+            <li class="itm">nazim</li>
+            <li class="itm">sanjay</li>
+            <li class="itm">anil</li>
+            <li id="san">sandeep</li>
+        </ul>
+        <script>
+            let elm = document.getElementsByClassName("itm");
+            // console.log(elm.length);
+            // console.log(elm[0]);
+            // console.log(elm[2].innerHTML);
+            for (let i = 0; i < elm.length; i++) {
+                console.log(elm[i].innerHTML = "<p>hello<p>");
+            }
+        </script>
+    </body>
+</html>
