@@ -9,19 +9,21 @@
     </head>
     <body>
         <ul>
-            <li class="itm">nazim</li>
-            <li class="itm">sanjay</li>
-            <li class="itm">anil</li>
-            <li id="san">sandeep</li>
+            <li>list1</li>
+            <li>list2</li>
+            <li id="list">list3</li>
+            <li>list4</li>
+            <li>list5</li>
         </ul>
         <script>
-            let elm = document.getElementsByClassName("itm");
-            // console.log(elm.length);
-            // console.log(elm[0]);
-            // console.log(elm[2].innerHTML);
-            for (let i = 0; i < elm.length; i++) {
-                console.log(elm[i].innerHTML = "<p>hello<p>");
-            }
+
+            let eml = document.getElementById("list");
+            console.log(eml);
+            let pre = eml.previousElementSibling;
+            console.log(pre);
+
+            let next = eml.nextElementSibling;
+            console.log(next);
         </script>
     </body>
 </html>
