@@ -1,0 +1,43 @@
+// var person = {
+//    name: "nazim",
+//    city:  "dehradun",
+// };
+// console.log(person);
+
+// var person = {
+//     name: "sanjay",
+//     age:34,
+//     getname : function(){
+//         return this.name.toUpperCase();
+//     }
+// };
+// console.log(person.getname());
+// access as a method not as property
+
+var person = {
+    name : "nazim",
+    age:34,
+    get getname(){
+       return this.name.toLocaleUpperCase();
+    }
+}
+console.log(person.getname);
+// now accessing as a property
+
+//-----------setter---------------------------
+// var person = {
+//    name: "nazim",
+//    city:  "dehradun",
+// };
+// person.name = "sanjay" 
+// console.log(person);
+
+var person = {
+ name : "nazim",
+ age : 34,
+ set setname(n){
+    this.name=n.toUpperCase();
+ }
+};
+person.setname="anil";
+console.log(person);
